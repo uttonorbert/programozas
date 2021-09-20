@@ -24,7 +24,19 @@ namespace _20210920
             }
             Console.ReadLine();
 
+            if (szam >=0)
+            {
+                Console.Write("A {0} szám pozitív", szam);
+            }
+            else
+            {
+                Console.WriteLine("A {0} nem negatív", szam);
+
+            }
+            Console.ReadLine();
+
 
         }
     }
 }
+

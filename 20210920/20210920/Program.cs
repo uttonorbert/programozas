@@ -10,7 +10,21 @@ namespace _20210920
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(32);
+            Console.WriteLine("Adjon meg egy számot");
+            double szam = Convert.ToDouble(Console.ReadLine());
+            Console.Clear();
+            if (szam % 2 ==0)
+            {
+                Console.Write("A {0} szám páros", szam);
+            }
+            else
+            {
+                Console.WriteLine("A {0} nem páros", szam);
+
+            }
+            Console.ReadLine();
+
+
         }
     }
 }

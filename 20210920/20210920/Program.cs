@@ -34,6 +34,16 @@ namespace _20210920
 
             }
             Console.ReadLine();
+            if (szam >= 0)
+            {
+                Console.Write("A {0} nem fagy", szam);
+            }
+            else
+            {
+                Console.WriteLine("A {0} fagy", szam);
+
+            }
+            Console.ReadLine();
 
 
         }

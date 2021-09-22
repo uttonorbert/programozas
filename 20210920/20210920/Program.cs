@@ -23,7 +23,7 @@ namespace _20210920
 
             }
             Console.ReadLine();
-
+            Console.WriteLine("Adja meg a számot majd el döntjük az elő jelét");
             if (szam >=0)
             {
                 Console.Write("A {0} szám pozitív", szam);
@@ -34,6 +34,7 @@ namespace _20210920
 
             }
             Console.ReadLine();
+            Console.WriteLine("Adja meg a kinti hömérsékletet");
             if (szam >= 0)
             {
                 Console.Write("A {0} nem fagy", szam);
@@ -41,6 +42,17 @@ namespace _20210920
             else
             {
                 Console.WriteLine("A {0} fagy", szam);
+
+            }
+            Console.ReadLine();
+            Console.WriteLine("Adja me a víz hömérsékletét (8)");
+            if (szam >= 0)
+            {
+                Console.Write("A {0} a víz meg fagy", szam);
+            }
+            else
+            {
+                Console.WriteLine("A {0}  víz meg fagy", szam);
 
             }
             Console.ReadLine();

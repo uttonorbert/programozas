@@ -87,7 +87,7 @@ namespace _20210927
 
             }
             Console.ReadLine();
-}
+}Z:\12\programozás\git\programozas\20210927\20210927\App.config
 
 
 
